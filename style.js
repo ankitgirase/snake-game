@@ -45,6 +45,7 @@ function gameEngine(){
         musicSound.pause();
         inputDir = {x:0, y:0};
         alert("Oops!! Game over.Press any key to play again :)")
+        scoreBox.innerHTML ='Score: '+0;
         snakeArr = [
             {x:12, y:15}
         ];
